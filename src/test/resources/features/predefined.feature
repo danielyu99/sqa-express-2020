@@ -21,6 +21,9 @@ Feature: Smoke steps
     Then I wait for 2 sec
     Then I clear element with xpath "//input[@name='username']"
     Given I type "AB" into element with xpath "//input[@name='username']"
+
+  @predefined3
+  Scenario: Email field verification
     Given I open url "https://skryabin.com/market/quote.html"
     When I should see page title as "Get a Quote"
     Given I type "AB" into element with xpath "//input[@name='username']"
