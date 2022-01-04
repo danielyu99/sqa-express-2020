@@ -48,7 +48,7 @@ Feature: Smoke steps
     Then I type "12345" into element with xpath "//input[@id='confirmPassword']"
     Then I click on element with xpath "//input[@id='name']"
     Then I wait for element with xpath "//input[@name='firstName']" to be present
-    Then I type "Daniel" into element with xpath "//input[@name='firstName']"
+    Then I type "Elizabeth" into element with xpath "//input[@name='firstName']"
     Then I type "Yu" into element with xpath "//input[@id='lastName']"
     Then I click on element with xpath "//span[contains(text(),'Save')]"
     Then I wait for element with xpath "//input[@name='phone']" to be present
@@ -68,11 +68,11 @@ Feature: Smoke steps
     Given I accept alert
     Then I click on element using JavaScript with xpath "//input[@id='relatedDocuments']"
     Then I switch to first window
-    Then I click on element using JavaScript with xpath "//img[@alt='Download']"
-    Then I switch to first window
-    Then I click on element using JavaScript with xpath "//input[@name='agreedToPrivacyPolicy']"
-    Then I click on element using JavaScript with xpath "//input[@id='attachment']"
-    Then I switch to first window
+  #  Then I click on element using JavaScript with xpath "//img[@alt='Download']"
+  #  Then I switch to first window
+  #  Then I click on element using JavaScript with xpath "//input[@name='agreedToPrivacyPolicy']"
+  #  Then I click on element using JavaScript with xpath "//input[@id='attachment']"
+  #  Then I switch to first window
    # Then I hit cancel button in attachment window
    # Then I click on element with xpath "//*[@id='formSubmit']"
    # Then I switch to new window
