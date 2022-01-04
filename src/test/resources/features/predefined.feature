@@ -54,7 +54,7 @@ Feature: Smoke steps
     Then I wait for element with xpath "//input[@name='phone']" to be present
     Then I type "408-123-4567" into element with xpath "//input[@name='phone']"
     Then I click on element using JavaScript with xpath "//input[@id='dateOfBirth']"
-    Then I type "01/01/2000" into element with xpath "//input[@id='dateOfBirth']"
+    Then I type "01/01/2022" into element with xpath "//input[@id='dateOfBirth']"
     Then I click on element using JavaScript with xpath "//select[@name='countryOfOrigin']/..//option[@value='Canada']"
     Then I click on element using JavaScript with xpath "//label[contains(text(),'Gender')]/..//input[@value='male']"
     Then I click on element using JavaScript with xpath "//label[contains(text(),'Allowed to Contact?')]/..//input[@name='allowedToContact']"
