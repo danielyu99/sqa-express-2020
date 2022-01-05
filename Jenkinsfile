@@ -6,8 +6,6 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-    }
-   stages {
         stage('Test') {
             steps {
                 /* `make check` returns non-zero on test failures,
