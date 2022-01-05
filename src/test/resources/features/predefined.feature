@@ -48,13 +48,13 @@ Feature: Smoke steps
     Then I type "12345" into element with xpath "//input[@id='confirmPassword']"
     Then I click on element with xpath "//input[@id='name']"
     Then I wait for element with xpath "//input[@name='firstName']" to be present
-    Then I type "Daniel" into element with xpath "//input[@name='firstName']"
+    Then I type "Elizabeth" into element with xpath "//input[@name='firstName']"
     Then I type "Yu" into element with xpath "//input[@id='lastName']"
     Then I click on element with xpath "//span[contains(text(),'Save')]"
     Then I wait for element with xpath "//input[@name='phone']" to be present
     Then I type "408-123-4567" into element with xpath "//input[@name='phone']"
     Then I click on element using JavaScript with xpath "//input[@id='dateOfBirth']"
-    Then I type "01/01/2000" into element with xpath "//input[@id='dateOfBirth']"
+    Then I type "01/01/2022" into element with xpath "//input[@id='dateOfBirth']"
     Then I click on element using JavaScript with xpath "//select[@name='countryOfOrigin']/..//option[@value='Canada']"
     Then I click on element using JavaScript with xpath "//label[contains(text(),'Gender')]/..//input[@value='male']"
     Then I click on element using JavaScript with xpath "//label[contains(text(),'Allowed to Contact?')]/..//input[@name='allowedToContact']"
@@ -68,11 +68,11 @@ Feature: Smoke steps
     Given I accept alert
     Then I click on element using JavaScript with xpath "//input[@id='relatedDocuments']"
     Then I switch to first window
-    Then I click on element using JavaScript with xpath "//img[@alt='Download']"
-    Then I switch to first window
-    Then I click on element using JavaScript with xpath "//input[@name='agreedToPrivacyPolicy']"
-    Then I click on element using JavaScript with xpath "//input[@id='attachment']"
-    Then I switch to first window
+  #  Then I click on element using JavaScript with xpath "//img[@alt='Download']"
+  #  Then I switch to first window
+  #  Then I click on element using JavaScript with xpath "//input[@name='agreedToPrivacyPolicy']"
+  #  Then I click on element using JavaScript with xpath "//input[@id='attachment']"
+  #  Then I switch to first window
    # Then I hit cancel button in attachment window
    # Then I click on element with xpath "//*[@id='formSubmit']"
    # Then I switch to new window
