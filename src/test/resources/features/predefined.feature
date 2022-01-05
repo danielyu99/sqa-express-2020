@@ -48,7 +48,7 @@ Feature: Smoke steps
     Then I type "12345" into element with xpath "//input[@id='confirmPassword']"
     Then I click on element with xpath "//input[@id='name']"
     Then I wait for element with xpath "//input[@name='firstName']" to be present
-    Then I type "Elizabeth" into element with xpath "//input[@name='firstName']"
+    Then I type "Elizabeth" into element with xpath "//input[@name='Elizabeth']"
     Then I type "Yu" into element with xpath "//input[@id='lastName']"
     Then I click on element with xpath "//span[contains(text(),'Save')]"
     Then I wait for element with xpath "//input[@name='phone']" to be present
